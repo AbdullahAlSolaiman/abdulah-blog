@@ -1,74 +1,143 @@
-baseURL: "https://alsolaiman.com"  # Change to your domain
-languageCode: "en-us"
-title: "Abdulah Blog"
-theme: "PaperMod"
+baseURL: 'https://your-domain.com'
+languageCode: 'ar'
+title: 'مدونة تدريب الأمن السيبراني'
+theme: 'PaperMod'
 
+# Language configuration - Arabic as default
+defaultContentLanguage: 'ar'
+defaultContentLanguageInSubdir: false
+
+languages:
+  ar:
+    title: '$ «<[حصان_طروادة@hacker]'
+    languageName: "العربية"
+    languageDirection: "rtl"
+    weight: 1
+    contentDir: "content/ar"
+    menu:
+      main:
+        - name: "الرئيسية"
+          url: "/"
+          weight: 1
+        - name: "من نحن"
+          url: "/about"
+          weight: 2
+        - name: "الخدمات"
+          url: "/services"
+          weight: 3
+        - name: "اتصل بنا"
+          url: "/contact"
+          weight: 4
+    params:
+      homeInfoParams:
+        Title: "مرحباً بك في تدريب الأمن السيبراني"
+        Content: |
+          ## من أنا؟
+
+          أنا عبدالله السليمان، مهندس خبير في أمن التطبيقات واختبار الاختراق (الهاكر الأخلاقي) بخبرة تتجاوز 8 سنوات، أعمل في شركة عالمية وأكمل الدكتوراه في مجال الأمن السيبراني. من خلال هذه المنصة، أقدم محتوى تعليمي، ورش عمل، ودورات مخصصة للطلبة والمهتمين بمجال الاختراق الأخلاقي وأمن المعلومات.
+
+          ## لمن هذه المنصة؟
+
+          الطلاب الطموحين، وأولياء الأمور الذين يبحثون عن مستقبل واعد لأبنائهم. الأمن السيبراني لم يعد مجرد تخصص، بل من أسرع المجالات نموًا عالميًا، بفرص عمل مرتفعة ورواتب مجزية. من خلال هذه المنصة، أعرّفكم على هذا المجال، تخصصاته، ومستقبله، وكيف يمكن لأبنائكم دخوله بخطوات مدروسة ومحتوى موجه ومبسّط.
+
+          ##  ماذا أقدّم؟
+           أقدم **ورش عمل تطبيقية**، و**جلسات توعوية لأولياء الأمور**، و*مساعدة أكاديمية ومهنية*، إلى جانب **محتوى تعليمي في أساسيات الأمن السيبراني والاختراق الأخلاقي**.
+
+      services:
+        - title: "هل تخصص الأمن السيبراني مناسب لك؟"
+          description: " دورة تعريفية للطلاب وأولياء الأمور تشرح طبيعة تخصص الأمن السيبراني في الجامعات، مجالاته، ومستقبله الوظيفي."
+          price: "عام"
+          duration: "يوم واحد"
+          icon: "🔒"
+          url: "/services/ar-fundmentals"
+        - title: "اختبار الاختراق"
+          description: "تقنيات ومنهجيات اختبار الاختراق المتقدمة"
+          price: "عام"
+          duration: "4 أسابيع"
+          icon: "🛡️"
+          url: "/services/penetration-testing"
+        - title: "تدقيق الأمان"
+          description: "تدريب شامل على تدقيق وتقييم الأمان"
+          price: "$399"
+          duration: "3 أسابيع"
+          icon: "🔍"
+          url: "/services/security-audit"
+
+  en:
+    title: '[hacker@trojan]$ >>'
+    languageName: "English"
+    weight: 2
+    contentDir: "content/en"
+    menu:
+      main:
+        - name: "Home"
+          url: "/en"
+          weight: 1
+        - name: "About"
+          url: "/en/about"
+          weight: 2
+        - name: "Services"
+          url: "/en/services"
+          weight: 3
+        - name: "Contact"
+          url: "/en/contact"
+          weight: 4
+    params:
+      homeInfoParams:
+        Title: "Welcome to Our Cybersecurity Training"
+        Content: "Professional cybersecurity training and consulting services"
+        
+      services:
+        - title: "Cybersecurity Fundamentals"
+          description: "Learn the basics of cybersecurity and information security"
+          price: "$299"
+          duration: "2 weeks"
+          icon: "🔒"
+          url: "/en/services/cybersecurity-fundamentals"
+        - title: "Penetration Testing"
+          description: "Advanced penetration testing techniques and methodologies"
+          price: "$599"
+          duration: "4 weeks"
+          icon: "🛡️"
+          url: "/en/services/penetration-testing"
+        - title: "Security Audit"
+          description: "Comprehensive security audit and assessment training"
+          price: "$399"
+          duration: "3 weeks"
+          icon: "🔍"
+          url: "/en/services/security-audit"
+
+# Theme parameters
 params:
   env: production
-  title: "Abdulah Blog"
-  description: "Welcome to my blog"
-  author: "Abdulah"
+  title: "تدريب الأمن السيبراني"
+  description: "خدمات تدريب واستشارات احترافية في الأمن السيبراني"
+  author: "Abbdulah Alsolaiman"
   
+  # Theme settings
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowToc: true
+  disableThemeToggle: false
+  
+  # Language switcher
+  ShowLanguageSwitcher: true
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+# Build settings
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-  label:
-    text: "Abdulah Blog"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there 👋"
-    Content: Welcome to my blog
-
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: github
-      url: "https://github.com/"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+# Markup settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: true
+    codeFences: true

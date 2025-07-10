@@ -1,0 +1,298 @@
+{{- define "main" }}
+
+{{- if .Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
+    </div>
+</article>
+{{- end }}
+
+
+
+<!-- Services Section -->
+<section class="services-section">
+    <h2 class="services-title">
+        {{- if eq .Site.Language.Lang "ar" }}
+        خدمات التدريب لدينا
+        {{- else }}
+        Our Training Services
+        {{- end }}
+    </h2>
+    <div class="services-grid">
+        {{- range .Site.Params.services }}
+        <article class="service-card">
+            <div class="service-icon">{{ .icon }}</div>
+            <header class="service-header">
+                <h3>{{ .title }}</h3>
+                <p class="service-description">{{ .description }}</p>
+            </header>
+            <div class="service-details">
+                <div class="service-meta">
+                    <span class="service-price">{{ .price }}</span>
+                    <span class="service-duration">{{ .duration }}</span>
+                </div>
+                <a href="{{ .url }}" class="service-button">
+                    {{- if eq $.Site.Language.Lang "ar" }}
+                    اعرف المزيد
+                    {{- else }}
+                    Learn More
+                    {{- end }}
+                </a>
+            </div>
+        </article>
+        {{- end }}
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="cta-content">
+        <h2>
+            {{- if eq .Site.Language.Lang "ar" }}
+            مستعد لتطوير مهاراتك الأمنية؟
+            {{- else }}
+            Ready to Enhance Your Security Skills?
+            {{- end }}
+        </h2>
+        <p>
+            {{- if eq .Site.Language.Lang "ar" }}
+            اتصل بنا اليوم لمناقشة احتياجاتك التدريبية والحصول على عرض أسعار مخصص.
+            {{- else }}
+            Contact us today to discuss your training needs and get a customized quote.
+            {{- end }}
+        </p>
+        <div class="cta-buttons">
+            {{- if eq .Site.Language.Lang "ar" }}
+            <a href="https://wa.me/60123456789?text=مرحبا,%20أنا%20مهتم%20بخدمات%20التدريب%20في%20الأمن%20السيبراني" 
+               class="cta-button whatsapp-button" target="_blank">
+                💬 واتساب
+            </a>
+            <a href="/ar/contact/" class="cta-button contact-button">
+                📧 نموذج الاتصال
+            </a>
+            {{- else }}
+            <a href="https://wa.me/60123456789?text=Hi,%20I'm%20interested%20in%20cybersecurity%20training%20services" 
+               class="cta-button whatsapp-button" target="_blank">
+                💬 WhatsApp Us
+            </a>
+            <a href="/contact/" class="cta-button contact-button">
+                📧 Contact Form
+            </a>
+            {{- end }}
+        </div>
+    </div>
+</section>
+
+<style>
+/* RTL Support */
+[dir="rtl"] .services-grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .service-card {
+    text-align: right;
+}
+
+[dir="rtl"] .service-meta {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .cta-buttons {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .language-switcher {
+    direction: rtl;
+}
+
+/* Services Section Styles */
+.services-section {
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--primary);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.service-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-header h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.service-description {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.service-details {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+}
+
+.service-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.service-price {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.service-duration {
+    color: var(--secondary);
+}
+
+.service-button {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--theme) !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid var(--primary);
+}
+
+.service-button:hover {
+    background: transparent;
+    color: var(--primary) !important;
+    transform: translateY(-2px);
+}
+
+/* CTA Section Styles */
+.cta-section {
+    background: var(--code-bg);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.cta-content h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.cta-content p {
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.whatsapp-button {
+    background: #25D366;
+    color: white !important;
+    border: 2px solid #25D366;
+}
+
+.whatsapp-button:hover {
+    background: transparent;
+    color: #25D366 !important;
+    transform: translateY(-2px);
+}
+
+.contact-button {
+    background: transparent;
+    color: var(--primary) !important;
+    border: 2px solid var(--primary);
+}
+
+.contact-button:hover {
+    background: var(--primary);
+    color: var(--theme) !important;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-button {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .language-switcher {
+        margin: 1rem 0;
+    }
+}
+
+/* Arabic Font Support */
+[lang="ar"] {
+    font-family: "Noto Sans Arabic", "Arial", sans-serif;
+}
+</style>
+
+{{- end }}

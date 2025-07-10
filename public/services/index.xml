@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>الرئيسية on $ «&lt;[حصان_طروادة@hacker]</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in الرئيسية on $ «&lt;[حصان_طروادة@hacker]</description>
+    <title>Services on $ «&lt;[حصان_طروادة@hacker]</title>
+    <link>http://localhost:1313/services/</link>
+    <description>Recent content in Services on $ «&lt;[حصان_طروادة@hacker]</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>ar</language>
     <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>تدريب أساسيات الأمن السيبراني</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>ببنِسابنِسابنِسا</description>
-    </item>
-    <item>
-      <title>تدريب أساسيات الأمن السيبراني</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>ببنِسابنِسابنِسا</description>
-    </item>
+    <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>تدريب أساسيات الأمن السيبراني</title>
       <link>http://localhost:1313/services/ar-fundmentals/</link>

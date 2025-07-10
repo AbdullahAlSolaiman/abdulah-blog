@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Services on [hacker@trojan]$ &gt;&gt;</title>
+    <link>http://localhost:1313/en/services/</link>
+    <description>Recent content in Services on [hacker@trojan]$ &gt;&gt;</description>
+    <generator>Hugo -- 0.148.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity Fundamentals Training</title>
+      <link>http://localhost:1313/en/services/cybersecurity-fundamentals/</link>
+      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/en/services/cybersecurity-fundamentals/</guid>
+      <description>Comprehensive cybersecurity fundamentals training program covering essential security concepts, threats, and defense strategies.</description>
+    </item>
+    <item>
+      <title>Penetration Testing Training</title>
+      <link>http://localhost:1313/en/services/penetration-testing/</link>
+      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/en/services/penetration-testing/</guid>
+      <description>Advanced penetration testing training program covering ethical hacking, vulnerability assessment, and security testing methodologies.</description>
+    </item>
+    <item>
+      <title>Security Audit &amp; Compliance Training</title>
+      <link>http://localhost:1313/en/services/security-audit/</link>
+      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/en/services/security-audit/</guid>
+      <description>Advanced security audit and compliance training program covering frameworks, methodologies, and best practices for security assessments.</description>
+    </item>
+  </channel>
+</rss>

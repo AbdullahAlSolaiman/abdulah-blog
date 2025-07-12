@@ -1,4 +1,6 @@
 /* Service Cards Styles */
+
+
 .service-cards {
   display: flex;
   gap: 1.5rem;
@@ -103,4 +105,60 @@
 .dark .language-switcher .lang-switch:hover {
     background: var(--primary) !important;
     color: var(--theme) !important;
+}
+
+/* Form CSS*/
+
+/* PaperMod contact form style */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--theme);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  font-family: inherit;
+}
+
+form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background-color: var(--entry);
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+form button[type="submit"] {
+  background-color: var(--primary);
+  color: var(--theme);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: var(--secondary);
 }

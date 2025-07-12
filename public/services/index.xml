@@ -6,28 +6,28 @@
     <description>Recent content in Services on $ «&lt;[حصان_طروادة@hacker]</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>ar</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>تدريب أساسيات الأمن السيبراني</title>
-      <link>http://localhost:1313/services/ar-fundmentals/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-fundmentals/</guid>
-      <description>برنامج تدريبي شامل في أساسيات الأمن السيبراني يغطي المفاهيم الأساسية للأمان والتهديدات واستراتيجيات الدفاع.</description>
+      <title>اختراق المواقع – من الصفر للمحترف</title>
+      <link>http://localhost:1313/services/ar-web-hacking/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-web-hacking/</guid>
+      <description>دورة عملية تبدأ بتأسيسك في كيفية عمل تطبيقات الويب، ثم تأخذك خطوة بخطوة لتعلم اختراقها بشكل قانوني وأخلاقي باستخدام أدوات وهجمات حقيقية.</description>
     </item>
     <item>
-      <title>تدريب اختبار الاختراق</title>
-      <link>http://localhost:1313/services/ar-pen-testing/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-pen-testing/</guid>
-      <description>برنامج تدريبي متقدم في اختبار الاختراق يغطي القرصنة الأخلاقية وتقييم الثغرات الأمنية ومنهجيات اختبار الأمان.</description>
+      <title>كيف تبدأ مسارك الوظيفي في الأمن السيبراني؟</title>
+      <link>http://localhost:1313/services/ar-career-kickstart/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-career-kickstart/</guid>
+      <description>دورة عملية ترشدك لبناء مسار مهني حقيقي في مجال الأمن السيبراني، حتى لو لم يكن لديك خبرة سابقة. مخصصة للطلاب وأولياء الأمور الذين يبحثون عن خطة واضحة للمستقبل.</description>
     </item>
     <item>
-      <title>تدريب اختبار الاختراق</title>
-      <link>http://localhost:1313/services/ar-sec-audit/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-sec-audit/</guid>
-      <description>برنامج تدريبي متقدم في اختبار الاختراق يغطي القرصنة الأخلاقية وتقييم الثغرات الأمنية ومنهجيات اختبار الأمان.</description>
+      <title>هل تخصص الأمن السيبراني مناسب لك؟</title>
+      <link>http://localhost:1313/services/ar-cybersec-overview/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-cybersec-overview/</guid>
+      <description>دورة تعريفية توضح طبيعة تخصص الأمن السيبراني، ومجالاته الجامعية والمهنية، موجهة للطلبة وأولياء الأمور.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+env: production
+title: "تدريب الأمن السيبراني"
+description: "خدمات تدريب واستشارات احترافية في الأمن السيبراني"
+author: "Abdullah Alsolaiman"
+
+# Custom CSS - PaperMod specific way
+assets:
+  css:
+    - "/css/custom.css"  # This should match your file location relative to assets folder
+
+
+
+# Theme settings
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowWordCount: true
+ShowToc: true
+disableThemeToggle: false
+
+# Language switcher
+ShowLanguageSwitcher: true

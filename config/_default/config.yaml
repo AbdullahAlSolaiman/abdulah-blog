@@ -7,6 +7,22 @@ theme: 'PaperMod'
 defaultContentLanguage: 'ar'
 defaultContentLanguageInSubdir: false
 
+# Build settings
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Markup settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: true
+    codeFences: true
+
+# Language definitions with all parameters
 languages:
   ar:
     title: '$ «<[حصان_طروادة@hacker]'
@@ -45,24 +61,27 @@ languages:
 
       services:
         - title: "هل تخصص الأمن السيبراني مناسب لك؟"
-          description: " دورة تعريفية للطلاب وأولياء الأمور تشرح طبيعة تخصص الأمن السيبراني في الجامعات، مجالاته، ومستقبله الوظيفي."
+          description: " دورة تعريفية للطلاب وأولياء الأمور تشرح طبيعة تخصص الأمن السيبراني في الجامعات، مجالاته، ومستقبله الوظيفي. بدون تنظير، بدون فلسفة – بس توجيه واضح بلغة بسيطة."
           price: "عام"
           duration: "يوم واحد"
           icon: "🔒"
-          url: "/services/ar-fundmentals"
-        - title: "اختبار الاختراق"
-          description: "تقنيات ومنهجيات اختبار الاختراق المتقدمة"
+          url: "/services/ar-cybersec-overview"
+        - title: "دورتك الأولى في اختراق المواقع – تعلّم الهكر \"الصح\""
+          description: | 
+                       تعلم اختراق المواقع، بشكل قانوني ومحترف.
+                        هنا ما في محاضرات مملة ولا سلايدات…
+                        نبدأ من الصفر، خطوة بخطوة، ونشتغل بإيدينا:
+                        تتعلم الأدوات، تهاجم مواقع وهمية، وتكتشف الثغرات بنفسك 
           price: "عام"
           duration: "4 أسابيع"
           icon: "🛡️"
-          url: "/services/penetration-testing"
-        - title: "تدقيق الأمان"
-          description: "تدريب شامل على تدقيق وتقييم الأمان"
+          url: "/services/ar-web-hacking"
+        - title: "كيف تجهّز نفسك لسوق العمل في الأمن السيبراني؟"
+          description: "تعرف على المهارات، الشهادات، والمشاريع التي تزيد فرصك في الحصول على وظيفة بمجال الأمن السيبراني، حتى بدون خبرة سابقة."
           price: "$399"
           duration: "3 أسابيع"
           icon: "🔍"
-          url: "/services/security-audit"
-
+          url: "/services/ar-career-kickstart"
   en:
     title: '[hacker@trojan]$ >>'
     languageName: "English"
@@ -86,7 +105,6 @@ languages:
       homeInfoParams:
         Title: "Welcome to Our Cybersecurity Training"
         Content: "Professional cybersecurity training and consulting services"
-        
       services:
         - title: "Cybersecurity Fundamentals"
           description: "Learn the basics of cybersecurity and information security"
@@ -106,38 +124,3 @@ languages:
           duration: "3 weeks"
           icon: "🔍"
           url: "/en/services/security-audit"
-
-# Theme parameters
-params:
-  env: production
-  title: "تدريب الأمن السيبراني"
-  description: "خدمات تدريب واستشارات احترافية في الأمن السيبراني"
-  author: "Abbdulah Alsolaiman"
-  
-  # Theme settings
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowToc: true
-  disableThemeToggle: false
-  
-  # Language switcher
-  ShowLanguageSwitcher: true
-
-# Build settings
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-# Markup settings
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    style: github
-    lineNos: true
-    codeFences: true

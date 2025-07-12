@@ -6,8 +6,29 @@
     <description>Recent content in الرئيسية on $ «&lt;[حصان_طروادة@hacker]</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>ar</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>اختراق المواقع – من الصفر للمحترف</title>
+      <link>http://localhost:1313/services/ar-web-hacking/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-web-hacking/</guid>
+      <description>دورة عملية تبدأ بتأسيسك في كيفية عمل تطبيقات الويب، ثم تأخذك خطوة بخطوة لتعلم اختراقها بشكل قانوني وأخلاقي باستخدام أدوات وهجمات حقيقية.</description>
+    </item>
+    <item>
+      <title>كيف تبدأ مسارك الوظيفي في الأمن السيبراني؟</title>
+      <link>http://localhost:1313/services/ar-career-kickstart/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-career-kickstart/</guid>
+      <description>دورة عملية ترشدك لبناء مسار مهني حقيقي في مجال الأمن السيبراني، حتى لو لم يكن لديك خبرة سابقة. مخصصة للطلاب وأولياء الأمور الذين يبحثون عن خطة واضحة للمستقبل.</description>
+    </item>
+    <item>
+      <title>هل تخصص الأمن السيبراني مناسب لك؟</title>
+      <link>http://localhost:1313/services/ar-cybersec-overview/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/ar-cybersec-overview/</guid>
+      <description>دورة تعريفية توضح طبيعة تخصص الأمن السيبراني، ومجالاته الجامعية والمهنية، موجهة للطلبة وأولياء الأمور.</description>
+    </item>
     <item>
       <title>تدريب أساسيات الأمن السيبراني</title>
       <link>http://localhost:1313/about/</link>
@@ -16,32 +37,27 @@
       <description>ببنِسابنِسابنِسا</description>
     </item>
     <item>
-      <title>تدريب أساسيات الأمن السيبراني</title>
+      <title>اتصل بنا</title>
       <link>http://localhost:1313/contact/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>ببنِسابنِسابنِسا</description>
+      <description>&lt;form action=&#34;https://formspree.io/f/xovwgpyd&#34; method=&#34;POST&#34;&gt;
+  &lt;label for=&#34;name&#34;&gt;الاسم:&lt;/label&gt;&lt;br&gt;
+  &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;label for=&#34;email&#34;&gt;البريد الإلكتروني:&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;_replyto&#34; required&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=&#34;message&#34;&gt;الرسالة:&lt;/label&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;https://alsolaiman.com/thanks&#34;&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34;&gt;إرسال&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;</description>
     </item>
     <item>
-      <title>تدريب أساسيات الأمن السيبراني</title>
-      <link>http://localhost:1313/services/ar-fundmentals/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-fundmentals/</guid>
-      <description>برنامج تدريبي شامل في أساسيات الأمن السيبراني يغطي المفاهيم الأساسية للأمان والتهديدات واستراتيجيات الدفاع.</description>
-    </item>
-    <item>
-      <title>تدريب اختبار الاختراق</title>
-      <link>http://localhost:1313/services/ar-pen-testing/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-pen-testing/</guid>
-      <description>برنامج تدريبي متقدم في اختبار الاختراق يغطي القرصنة الأخلاقية وتقييم الثغرات الأمنية ومنهجيات اختبار الأمان.</description>
-    </item>
-    <item>
-      <title>تدريب اختبار الاختراق</title>
-      <link>http://localhost:1313/services/ar-sec-audit/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/services/ar-sec-audit/</guid>
-      <description>برنامج تدريبي متقدم في اختبار الاختراق يغطي القرصنة الأخلاقية وتقييم الثغرات الأمنية ومنهجيات اختبار الأمان.</description>
+      <title>تم الإرسال</title>
+      <link>http://localhost:1313/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thanks/</guid>
+      <description>&lt;p&gt;شكراً لتواصلك معنا، سنعود إليك قريباً!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

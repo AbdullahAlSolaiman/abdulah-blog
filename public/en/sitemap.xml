@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
+    <lastmod>2025-07-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -15,43 +15,14 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/about/"
-                />
+    <loc>http://localhost:1313/en/services/career-kickstart/</loc>
+    <lastmod>2025-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/contact/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/services/cybersecurity-fundamentals/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/services/penetration-testing/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/services/security-audit/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/en/services/cybesec-overview/</loc>
+    <lastmod>2025-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>
-    <lastmod>2025-07-08T10:00:00+08:00</lastmod>
+    <lastmod>2025-07-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -61,6 +32,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/services/web-hacking/</loc>
+    <lastmod>2025-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
@@ -73,6 +59,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/faq/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>

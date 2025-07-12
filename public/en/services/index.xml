@@ -6,28 +6,28 @@
     <description>Recent content in Services on [hacker@trojan]$ &gt;&gt;</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cybersecurity Fundamentals Training</title>
-      <link>http://localhost:1313/en/services/cybersecurity-fundamentals/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/cybersecurity-fundamentals/</guid>
-      <description>Comprehensive cybersecurity fundamentals training program covering essential security concepts, threats, and defense strategies.</description>
+      <title>How to Start a Cybersecurity Career (Even with No Experience)</title>
+      <link>http://localhost:1313/en/services/career-kickstart/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/career-kickstart/</guid>
+      <description>Learn how to build a job-ready cybersecurity profile, what skills to focus on, which certifications actually matter, and how to get noticed by companies.</description>
     </item>
     <item>
-      <title>Penetration Testing Training</title>
-      <link>http://localhost:1313/en/services/penetration-testing/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/penetration-testing/</guid>
-      <description>Advanced penetration testing training program covering ethical hacking, vulnerability assessment, and security testing methodologies.</description>
+      <title>Is Cybersecurity the Right Major for You?</title>
+      <link>http://localhost:1313/en/services/cybesec-overview/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/cybesec-overview/</guid>
+      <description>A practical introduction to the cybersecurity major for students and parents. Learn what to expect, how it&amp;#39;s taught in universities, and the real career opportunities behind it.</description>
     </item>
     <item>
-      <title>Security Audit &amp; Compliance Training</title>
-      <link>http://localhost:1313/en/services/security-audit/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/security-audit/</guid>
-      <description>Advanced security audit and compliance training program covering frameworks, methodologies, and best practices for security assessments.</description>
+      <title>Web Hacking – From Zero to Practical Skills</title>
+      <link>http://localhost:1313/en/services/web-hacking/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/web-hacking/</guid>
+      <description>Learn how websites work, then practice hacking them safely and legally using real-world tools and techniques in a structured 4-week program.</description>
     </item>
   </channel>
 </rss>

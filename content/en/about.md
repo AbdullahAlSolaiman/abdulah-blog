@@ -1,24 +1,21 @@
 ---
-title: "About Us"
-date: 2025-07-08T10:00:00+08:00
-draft: false
+title: "About"
+type: "page"
 ---
 
-# About CyberSec Training Hub
+## Who is Abdullah Al-Solaiman?
 
-We are cybersecurity professionals dedicated to providing high-quality training programs that prepare individuals and organizations for the evolving threat landscape.
+I’m a senior application security engineer and ethical hacker with over 8 years of experience.  
+I’ve worked with global companies on sensitive, real-world projects, and I’m currently pursuing a PhD in cybersecurity.
 
-## Our Mission
-To bridge the cybersecurity skills gap by delivering practical, hands-on training that empowers professionals to protect their organizations effectively.
+## Why did I build this platform?
 
-## Our Expertise
-- 10+ years of cybersecurity experience
-- Industry certifications (CISSP, CEH, OSCP)
-- Real-world penetration testing experience
-- Corporate training expertise
+This platform was created to help students and aspiring professionals enter the cybersecurity field in a realistic and effective way.  
+My goal is to offer hands-on, practical content — not just theory — and real training that builds real-world skills.
 
-## Why Choose Us
-- **Practical Focus:** Real-world scenarios and hands-on labs
-- **Expert Instructors:** Certified professionals with industry experience
-- **Flexible Training:** Multiple formats to fit your schedule
-- **Ongoing Support:** Post-training assistance and resources
+## What do I offer?
+
+- Practical workshops in ethical hacking and application security  
+- Foundational courses for students  
+- Awareness and guidance sessions for parents  
+- Support in building an academic or career path in cybersecurity  

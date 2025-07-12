@@ -44,6 +44,9 @@ languages:
         - name: "اتصل بنا"
           url: "/contact"
           weight: 4
+        - name: "الأسئلة الشائعة"
+          url: "/FAQ"
+          weight: 5
     params:
       homeInfoParams:
         Title: "مرحباً بك في تدريب الأمن السيبراني"
@@ -101,26 +104,48 @@ languages:
         - name: "Contact"
           url: "/en/contact"
           weight: 4
+        - name: "FAQ"
+          url: "/en/FAQ"
+          weight: 5
     params:
       homeInfoParams:
-        Title: "Welcome to Our Cybersecurity Training"
-        Content: "Professional cybersecurity training and consulting services"
+        Title: "Welcome to Cybersecurity Training"
+        Content: |
+          ## Who am I?
+
+          I'm Abdullah Al-Solaiman, an Application Security Engineer and ethical hacker with over 8 years of hands-on experience in global tech companies. I’m currently pursuing a PhD in cybersecurity.  
+          This platform offers focused, practical cybersecurity training for students and parents interested in ethical hacking, information security, and real-world career opportunities.
+
+          ## Who is this for?
+
+          For ambitious students — and for parents who want to secure a strong future for their children.  
+          Cybersecurity is no longer just a niche—it’s one of the fastest-growing industries worldwide, with high salaries and demand.  
+          Here, I introduce the field, explain its specializations, and guide students step by step into it with a simplified and focused approach.
+
+          ## What do I offer?
+
+          I offer **hands-on technical workshops**, **awareness sessions for parents**, and *academic and career guidance*, in addition to **educational content on cybersecurity and ethical hacking** tailored to beginners.
+
       services:
-        - title: "Cybersecurity Fundamentals"
-          description: "Learn the basics of cybersecurity and information security"
-          price: "$299"
-          duration: "2 weeks"
+        - title: "Is Cybersecurity the Right Major for You?"
+          description: "A practical session that explains what cybersecurity is, how it's taught in universities, and what job opportunities exist in the field. No fluff — just clear, honest guidance for students and parents."
+          price: "General"
+          duration: "1 day"
           icon: "🔒"
-          url: "/en/services/cybersecurity-fundamentals"
-        - title: "Penetration Testing"
-          description: "Advanced penetration testing techniques and methodologies"
-          price: "$599"
+          url: "/en/services/cybersec-overview"
+        - title: "Your First Web Hacking Course – The Right Way"
+          description: |
+            Learn how to hack websites — legally and professionally.  
+            No boring lectures. No slides.  
+            We start from zero, step by step, hands-on:  
+            Learn the tools, attack training websites, and discover real vulnerabilities by yourself.
+          price: "Beginner"
           duration: "4 weeks"
           icon: "🛡️"
-          url: "/en/services/penetration-testing"
-        - title: "Security Audit"
-          description: "Comprehensive security audit and assessment training"
-          price: "$399"
-          duration: "3 weeks"
+          url: "/en/services/web-hacking"
+        - title: "How to Prepare Yourself for a Cybersecurity Career"
+          description: "Understand the skills, certifications, and projects that increase your chances of getting hired in cybersecurity — even with no prior experience."
+          price: "General"
+          duration: "1 day"
           icon: "🔍"
-          url: "/en/services/security-audit"
+          url: "/en/services/career-kickstart"

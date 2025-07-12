@@ -6,59 +6,71 @@
     <description>Recent content on [hacker@trojan]$ &gt;&gt;</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Us</title>
+      <title>How to Start a Cybersecurity Career (Even with No Experience)</title>
+      <link>http://localhost:1313/en/services/career-kickstart/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/career-kickstart/</guid>
+      <description>Learn how to build a job-ready cybersecurity profile, what skills to focus on, which certifications actually matter, and how to get noticed by companies.</description>
+    </item>
+    <item>
+      <title>Is Cybersecurity the Right Major for You?</title>
+      <link>http://localhost:1313/en/services/cybesec-overview/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/cybesec-overview/</guid>
+      <description>A practical introduction to the cybersecurity major for students and parents. Learn what to expect, how it&amp;#39;s taught in universities, and the real career opportunities behind it.</description>
+    </item>
+    <item>
+      <title>Web Hacking – From Zero to Practical Skills</title>
+      <link>http://localhost:1313/en/services/web-hacking/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/services/web-hacking/</guid>
+      <description>Learn how websites work, then practice hacking them safely and legally using real-world tools and techniques in a structured 4-week program.</description>
+    </item>
+    <item>
+      <title>About</title>
       <link>http://localhost:1313/en/about/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/about/</guid>
-      <description>&lt;h1 id=&#34;about-cybersec-training-hub&#34;&gt;About CyberSec Training Hub&lt;/h1&gt;
-&lt;p&gt;We are cybersecurity professionals dedicated to providing high-quality training programs that prepare individuals and organizations for the evolving threat landscape.&lt;/p&gt;
-&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
-&lt;p&gt;To bridge the cybersecurity skills gap by delivering practical, hands-on training that empowers professionals to protect their organizations effectively.&lt;/p&gt;
-&lt;h2 id=&#34;our-expertise&#34;&gt;Our Expertise&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;10+ years of cybersecurity experience&lt;/li&gt;
-&lt;li&gt;Industry certifications (CISSP, CEH, OSCP)&lt;/li&gt;
-&lt;li&gt;Real-world penetration testing experience&lt;/li&gt;
-&lt;li&gt;Corporate training expertise&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;why-choose-us&#34;&gt;Why Choose Us&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Practical Focus:&lt;/strong&gt; Real-world scenarios and hands-on labs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Expert Instructors:&lt;/strong&gt; Certified professionals with industry experience&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flexible Training:&lt;/strong&gt; Multiple formats to fit your schedule&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ongoing Support:&lt;/strong&gt; Post-training assistance and resources&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;who-is-abdullah-al-solaiman&#34;&gt;Who is Abdullah Al-Solaiman?&lt;/h2&gt;
+&lt;p&gt;I’m a senior application security engineer and ethical hacker with over 8 years of experience.&lt;br&gt;
+I’ve worked with global companies on sensitive, real-world projects, and I’m currently pursuing a PhD in cybersecurity.&lt;/p&gt;
+&lt;h2 id=&#34;why-did-i-build-this-platform&#34;&gt;Why did I build this platform?&lt;/h2&gt;
+&lt;p&gt;This platform was created to help students and aspiring professionals enter the cybersecurity field in a realistic and effective way.&lt;br&gt;
+My goal is to offer hands-on, practical content — not just theory — and real training that builds real-world skills.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact Us</title>
       <link>http://localhost:1313/en/contact/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/contact/</guid>
-      <description>Get in touch with our cybersecurity training experts for inquiries, bookings, and custom training solutions.</description>
+      <description>&lt;form action=&#34;https://formspree.io/f/xovwgpyd&#34; method=&#34;POST&#34;&gt;
+  &lt;label for=&#34;name&#34;&gt;Name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;label for=&#34;email&#34;&gt;Email:&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;_replyto&#34; required&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=&#34;message&#34;&gt;Message:&lt;/label&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;https://alsolaiman.com/en/thanks&#34;&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;</description>
     </item>
     <item>
-      <title>Cybersecurity Fundamentals Training</title>
-      <link>http://localhost:1313/en/services/cybersecurity-fundamentals/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/cybersecurity-fundamentals/</guid>
-      <description>Comprehensive cybersecurity fundamentals training program covering essential security concepts, threats, and defense strategies.</description>
-    </item>
-    <item>
-      <title>Penetration Testing Training</title>
-      <link>http://localhost:1313/en/services/penetration-testing/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/penetration-testing/</guid>
-      <description>Advanced penetration testing training program covering ethical hacking, vulnerability assessment, and security testing methodologies.</description>
-    </item>
-    <item>
-      <title>Security Audit &amp; Compliance Training</title>
-      <link>http://localhost:1313/en/services/security-audit/</link>
-      <pubDate>Tue, 08 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/en/services/security-audit/</guid>
-      <description>Advanced security audit and compliance training program covering frameworks, methodologies, and best practices for security assessments.</description>
+      <title>FAQ</title>
+      <link>http://localhost:1313/en/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/faq/</guid>
+      <description>&lt;h2 id=&#34;frequently-asked-questions&#34;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;h3 id=&#34;are-these-courses-beginner-friendly&#34;&gt;Are these courses beginner-friendly?&lt;/h3&gt;
+&lt;p&gt;Yes. All courses are designed for absolute beginners. No prior technical knowledge is required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;are-the-courses-hands-on&#34;&gt;Are the courses hands-on?&lt;/h3&gt;
+&lt;p&gt;All content is fully practical. You’ll learn by doing — not just by listening or watching.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;how-long-is-the-web-hacking-course&#34;&gt;How long is the Web Hacking course?&lt;/h3&gt;
+&lt;p&gt;It runs for 4 weeks, with two sessions per week (60–90 minutes each). Each session includes a hands-on lab and a guided exercise.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
